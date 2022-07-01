@@ -1,0 +1,54 @@
+.work {
+    background-image: url(..//public/img/background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 100px;
+    font-weight: 800;
+    color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.description {
+    text-align: center;
+    padding: 20px 150px 0 150px;
+    font-size: 25px;
+}
+
+.colors {
+    background: linear-gradient(270deg, #21ffc0, #ffffff, #c5ff33, #ff85fd, #ff6a00, #69ff6e);
+    background-size: 600% 600%;
+    animation: AnimationName 15s ease infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: rgba(0, 0, 0, 0.442);
+    color: #fff;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.203);
+    border: 1px solid rgba(0, 200, 255, 0.308);
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.67);
+}

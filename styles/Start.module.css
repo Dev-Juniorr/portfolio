@@ -1,0 +1,64 @@
+.start {
+    background-image: url(..//public/img/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 110vh;
+    padding: 30px;
+    color: #fff;
+    border-top: 3px solid rgba(0, 183, 255, 0.204);
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.content {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.204);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.41);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.title {
+    padding: 100px 0 50px 0;
+    text-shadow: 0 8px 32px rgba(0, 0, 0, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 74px;
+    font-weight: 800;
+    color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+.item {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.descrip {
+    padding: 0 30px 30px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}

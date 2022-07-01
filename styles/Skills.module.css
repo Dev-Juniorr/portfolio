@@ -1,0 +1,23 @@
+.skills {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 21, 32);
+    width: 100%;
+    padding: 20px 0 0 0;
+    height: 20vh;
+    border-top: 3px solid rgba(0, 183, 255, 0.204);
+    border-bottom: 3px solid rgba(0, 183, 255, 0.204);
+}
+
+.iconSkills {
+    color: rgba(255, 255, 255, 0.402);
+    font-size: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.iconSkills:hover {
+    color: rgb(0, 229, 255);
+}

@@ -1,0 +1,99 @@
+.background {
+    background-image: url(..//public/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: rgba(0, 0, 0, 0.204);
+    color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.203);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.18 );
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+@keyframes header {
+    from {
+      transform: translateY(10px);
+    }
+  
+    to {
+      
+    }
+  }
+
+.logo {
+    font-size: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.item a:hover {
+    color: rgb(230, 230, 230);
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 100px;
+    font-weight: 800;
+    color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.description {
+    font-size: 30px;
+}
+
+.colors {
+    background: linear-gradient(270deg, #2521ff, #ffffff, #c5ff33, #ff85fd, #ff6a00, #69ff6e);
+    background-size: 600% 600%;
+    animation: AnimationName 15s ease infinite;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes slidein {
+    from {
+      transform: translateY(-20%);
+    }
+  
+    to {
+      
+    }
+  }
